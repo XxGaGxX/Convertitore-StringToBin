@@ -14,7 +14,7 @@
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" FontSize="47" TextAlignment="Center" FontFamily="Times New Roman" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,7,0,5" >String to Bin</TextBlock>
+        <TextBlock Grid.Row="0" FontSize="47" TextAlignment="Center" FontFamily="Times New Roman" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,7,0,5" >String to Bin</TextBlock>
         <TextBlock Grid.Row="1" FontSize="27" VerticalAlignment="Center" Margin="5,0,630,0" FontFamily="Times New Roman" >Input String : </TextBlock>
         <TextBox Grid.Row="1" Margin="175,65,100,61" BorderBrush="Black" Name="tbx_Input" TextChanged="tbx_Input_TextChanged"></TextBox>
         <TextBlock Grid.Row="2" FontSize="27" VerticalAlignment="Center" Margin="5,0,590,0" FontFamily="Times New Roman"> Converted String :</TextBlock>
